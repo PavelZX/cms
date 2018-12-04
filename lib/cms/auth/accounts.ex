@@ -24,6 +24,7 @@ defmodule Cms.Auth.Accounts do
 
   def authenticate_user(email, given_password) do
     query = Ecto.Query.from(u in User, where: u.email == ^email)
+    |> limit(1)
     Repo.one(query)
     |> check_password(given_password)
   end
