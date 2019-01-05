@@ -11,7 +11,7 @@ Simple and Extensible Blog App built on Phoenix framework in Elixir.
 
 ## Get Started
 
-* Clone repository `git clone https://github.com/ramansah/cms.git`
+* Clone repository `git clone https://github.com/PavelZX/cms.git`
 * Fetch dependencies with `cd cms && mix deps.get`
 * Setup database and seed data `mix ecto.setup`
 * Install Node.js dependencies with `cd assets && npm install`
